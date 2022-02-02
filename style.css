@@ -20,6 +20,9 @@
 .bc {
     background-color: black;
 }
+.bc2{
+    background-color: #050505;
+}
 
 .fontes {
     font-family: 'Supermercado One', cursive;
@@ -58,15 +61,41 @@
 
 .fotos {
     border: solid;
-    border-color: rgb(182, 0, 39);
+    border-color: rgb(168, 1, 85);
     border-style: solid;
     border-radius: 230px;
     width: 100px;
     height: 100px;
+    margin: 4pt;
 }
 
 .momento {
+    font-size: 18pt;
+    font-family: 'Supermercado One', cursive;  
     color: rgb(121, 0, 115);
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: 0 0 30px  rgb(216, 18, 206)
+}
+.momento:hover{
+    color: rgb(121, 0, 115);
+    text-decoration: none;
+}
+.raidb{
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(121, 0, 115);
+    border-style: solid;
+    border-radius: 13px;
+    color: rgb(121, 0, 115);
+    box-shadow: 0 0 15px  rgb(216, 18, 206);
+}
+.barrinha{
+    color: rgb(116, 0, 58);
+}
+.dnem{
+    font-size: 12pt;
+    color: #f4f4f4; 
+}
+.espac{
+    margin-bottom: 100px;
 }
